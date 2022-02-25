@@ -4,7 +4,9 @@
   padding: 23px 30px;
   background-color: hsl(0, 0%, 100%);
   display: flex;
+  align-items: flex-start;
   border-radius: 10px;
+  margin-bottom: 20px;
 }
 
 .message {
@@ -59,8 +61,10 @@
 }
 
 .message-content {
+  margin-top: 0;
   color: hsl(211, 10%, 45%);
   font-size: 16px;
+  line-height: 22px;
 }
 
 .container-buttons button {

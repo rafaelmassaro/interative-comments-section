@@ -1,0 +1,23 @@
+.avatar {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+}
+
+.avatar img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.new-comment {
+  width: 500px;
+  height: 95px;
+  resize: none;
+  margin-right: 20px;
+  border-radius: 10px;
+  padding: 15px 20px;
+  outline: none;
+  font-size: 16px;
+  color: hsl(212, 24%, 26%);
+  cursor: pointer;
+}

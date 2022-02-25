@@ -2,8 +2,10 @@ import './messagebox.css';
 
 import IconEdit from '../../assets/images/icon-edit.svg';
 import IconDelete from '../../assets/images/icon-delete.svg';
+import IconReply from '../../assets/images/icon-reply.svg';
 
 import VoteButton from '../VoteButton';
+import FormButton from '../FormButton';
 
 export default function MessageBox() {
     return(
@@ -36,12 +38,16 @@ export default function MessageBox() {
                             <img src={IconEdit} alt="Icon Edit"/>
                             Edit
                         </button>
+                        {/* <button className='edit-button'>
+                            <img src={IconReply} alt="Icon Reply"/>
+                            Reply
+                        </button> */}
                     </div>
 
                 </div>
-                <div className="message-content">
+                <p className="message-content">
                 Impressive! Though it seems the drag feature could be improved. But overall it looks incredible. You've nailed the design and the responsiveness at various breakpoints works really well.
-                </div>
+                </p>
             </section>
         </div>
     )
