@@ -89,3 +89,12 @@
 .edit-button {
   color: hsl(238, 40%, 52%);
 }
+
+.replies-list {
+  max-width: 730px;
+  margin-left: 100px;
+}
+
+.reply {
+  padding-left: 40px;
+}

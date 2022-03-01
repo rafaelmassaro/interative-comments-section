@@ -46,7 +46,24 @@
               "webp": "./images/avatars/image-ramsesmiron.webp"
             },
             "username": "ramsesmiron"
-          }
+          },
+          "replies": [
+            {
+              "id": 99,
+              "content": "LOL",
+              "createdAt": "1 month ago",
+              "score": 12,
+              "user": {
+              "image": { 
+              "png": "./images/avatars/image-amyrobson.png",
+              "webp": "./images/avatars/image-amyrobson.webp"
+            },
+          "username": "amyrobson"
+      },
+      "replies": []
+            }
+          ]
+          
         },
         {
           "id": 4,
